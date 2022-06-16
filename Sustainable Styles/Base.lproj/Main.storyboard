@@ -41,13 +41,16 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large"/>
                                     <color key="baseForegroundColor" red="0.92579305171966553" green="0.73000311851501465" blue="0.65176630020141602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yCU-Ih-tif" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="5l2-Y0-nh5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WT2-3l-TCT">
                                 <rect key="frame" x="185" y="803" width="45" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="circle" catalog="system" symbolScale="large"/>
+                                    <imageReference key="image" image="house" catalog="system" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.92579305170000004" green="0.73000311849999999" blue="0.65176630020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
@@ -68,6 +71,9 @@
                                     <backgroundConfiguration key="background"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large" weight="bold"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nhv-jD-DBj" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="oCK-uZ-P7A"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KiX-54-vmP">
                                 <rect key="frame" x="140" y="625" width="135" height="135"/>
@@ -163,7 +169,7 @@
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-1"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
-                                    <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="house.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
                                             <color red="0.92579305171966553" green="0.73000311851501465" blue="0.65176630020141602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color systemColor="secondaryLabelColor"/>
@@ -173,6 +179,9 @@
                                     <backgroundConfiguration key="background"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large" weight="bold"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ket-Jb-AMD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAR-Mx-kf2">
                                 <rect key="frame" x="298" y="803" width="45" height="32"/>
@@ -195,6 +204,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large"/>
                                     <color key="baseForegroundColor" red="0.92579305170000004" green="0.73000311849999999" blue="0.65176630020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nhv-jD-DBj" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="b8e-cN-4yb"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ync-RL-AcS">
                                 <rect key="frame" x="140" y="624" width="135" height="135"/>
@@ -208,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQL-XD-h7f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="84"/>
+            <point key="canvasLocation" x="1154" y="-364"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="B63-eK-9PF">
@@ -226,24 +238,27 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2A-4b-yCO">
-                                <rect key="frame" x="170" y="777" width="85" height="85"/>
+                                <rect key="frame" x="165" y="777" width="85" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-1"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
-                                    <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="house.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
                                             <color red="0.92579305171966553" green="0.73000311851501465" blue="0.65176630020141602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color systemColor="secondaryLabelColor"/>
-                                            <color systemColor="tertiaryLabelColor"/>
+                                            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </hierarchicalColors>
                                     </imageReference>
                                     <backgroundConfiguration key="background"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large" weight="bold"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="zYm-9V-FBJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djT-9f-jrr">
-                                <rect key="frame" x="72" y="803" width="45" height="32"/>
+                                <rect key="frame" x="66" y="803" width="45" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -257,7 +272,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eN6-1t-RjK">
-                                <rect key="frame" x="283" y="775" width="85" height="85"/>
+                                <rect key="frame" x="277" y="776" width="85" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-1"/>
                                 <state key="normal" title="Button"/>
@@ -272,6 +287,9 @@
                                     <backgroundConfiguration key="background"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large" weight="bold"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yCU-Ih-tif" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="0Cp-X6-mON"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PVy-Fk-PqV"/>
@@ -280,12 +298,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NOt-Wn-BVE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1652" y="84"/>
+            <point key="canvasLocation" x="1154" y="474"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oCK-uZ-P7A"/>
+        <segue reference="0Cp-X6-mON"/>
+        <segue reference="zYm-9V-FBJ"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="circle" catalog="system" width="128" height="121"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
