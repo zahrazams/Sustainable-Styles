@@ -157,30 +157,45 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ways You Can Fight Fast Fashion at Home"/>
+                                <connections>
+                                    <segue destination="uOn-Gp-FXN" kind="show" id="eQl-5v-p2a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2o-Rj-Qqd">
                                 <rect key="frame" x="29" y="217" width="356" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="List of Ethical Brands to Support"/>
+                                <connections>
+                                    <segue destination="qSg-j5-WUX" kind="show" id="pth-Tu-Kzu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4F-6t-mSi">
                                 <rect key="frame" x="29" y="316" width="356" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Facts About Fast Fashion "/>
+                                <connections>
+                                    <segue destination="lTB-UM-6oU" kind="show" id="z7g-Fm-PFT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq0-qc-w6t">
                                 <rect key="frame" x="28" y="415" width="359" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Impact of Fast Fashion on Environment"/>
+                                <connections>
+                                    <segue destination="dJo-zK-bH9" kind="show" id="GlG-ym-fe3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aF2-L2-1VV">
                                 <rect key="frame" x="29" y="514" width="356" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Solutions to Fast Fashion "/>
+                                <connections>
+                                    <segue destination="ecq-CK-7Ac" kind="show" id="3ik-et-CLH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="06Q-1J-iZo"/>
@@ -944,7 +959,7 @@
             <objects>
                 <viewController id="uOn-Gp-FXN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MPG-BP-8BR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4qM-KC-WvB">
@@ -960,6 +975,7 @@
                         <viewLayoutGuide key="safeArea" id="bxN-2t-9D2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="6HQ-nq-xlN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rwK-QC-E0X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -970,7 +986,7 @@
             <objects>
                 <viewController id="qSg-j5-WUX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zjV-3h-Ykw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1P-gZ-SRn">
@@ -986,6 +1002,7 @@
                         <viewLayoutGuide key="safeArea" id="gCm-RL-bQy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="v9g-iv-uAD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SbQ-iL-Hok" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -996,7 +1013,7 @@
             <objects>
                 <viewController id="lTB-UM-6oU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W0V-ac-I19">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oQk-ot-qAH">
@@ -1012,6 +1029,7 @@
                         <viewLayoutGuide key="safeArea" id="l9d-YX-T1g"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Fo3-MA-yuH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="188-Qg-Q7Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1022,7 +1040,7 @@
             <objects>
                 <viewController id="dJo-zK-bH9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sfF-dR-58g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3pb-Xu-dIE">
@@ -1038,6 +1056,7 @@
                         <viewLayoutGuide key="safeArea" id="Vfv-Uv-TCT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="z8f-0c-qUW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xX4-Ob-mtp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1048,7 +1067,7 @@
             <objects>
                 <viewController id="ecq-CK-7Ac" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="46T-1b-Wlj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iip-6b-gzN">
@@ -1064,6 +1083,7 @@
                         <viewLayoutGuide key="safeArea" id="T5R-Mi-5QX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cxf-2y-SxC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L8w-Pn-cFt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

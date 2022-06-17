@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let googleURL = URL(string: "https://www.globalcitizen.org/en/content/fast-fashion-how-to-be-sustainable/")
-        myWebView.load(URLRequest(url:googleURL!))
+        let ways = URL(string: "https://www.globalcitizen.org/en/content/fast-fashion-how-to-be-sustainable/")
+        myWebView.load(URLRequest(url:ways!))
     }
 
 
