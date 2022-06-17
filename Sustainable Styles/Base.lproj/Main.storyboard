@@ -17,6 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SustainableStyles" translatesAutoresizingMaskIntoConstraints="NO" id="PoY-DR-XHl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meX-ms-xic">
                                 <rect key="frame" x="293" y="801" width="55" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -26,7 +30,7 @@
                                 <buttonConfiguration key="configuration" style="plain" imagePadding="40">
                                     <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large"/>
-                                    <color key="baseForegroundColor" red="0.92579305171966553" green="0.73000311851501465" blue="0.65176630020141602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="yCU-Ih-tif" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="5l2-Y0-nh5"/>
@@ -39,7 +43,7 @@
                                 <buttonConfiguration key="configuration" style="plain">
                                     <imageReference key="image" image="house" catalog="system" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large" weight="bold"/>
-                                    <color key="baseForegroundColor" red="0.92579305170000004" green="0.73000311849999999" blue="0.65176630020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVf-ia-BAS">
@@ -50,7 +54,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92579305171966553" green="0.73000311851501465" blue="0.65176630020141602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color systemColor="secondaryLabelColor"/>
                                             <color systemColor="tertiaryLabelColor"/>
                                         </hierarchicalColors>
@@ -62,21 +66,36 @@
                                     <segue destination="nhv-jD-DBj" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="oCK-uZ-P7A"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plant Icon" translatesAutoresizingMaskIntoConstraints="NO" id="KiX-54-vmP">
-                                <rect key="frame" x="140" y="381" width="135" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDL-fo-Dfn">
-                                <rect key="frame" x="67" y="226" width="281" height="137"/>
+                                <rect key="frame" x="34" y="184" width="347" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Sustainable Styles">
                                         <attributes>
-                                            <font key="NSFont" size="50" name="AvenirNext-Regular"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="60" name="AvenirNext-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plant Icon" translatesAutoresizingMaskIntoConstraints="NO" id="i4h-Ru-Tht">
+                                <rect key="frame" x="87" y="641" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJB-ah-BVw">
+                                <rect key="frame" x="188" y="442" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Made by Zahra Zams, Judy Wu, and Sydney Gonzalez" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWQ-LD-Gz2">
+                                <rect key="frame" x="45" y="377" width="325" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -86,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2249" y="75"/>
+            <point key="canvasLocation" x="-3304.347826086957" y="68.973214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oD2-tb-CqC">
@@ -96,6 +115,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SustainableStyles" translatesAutoresizingMaskIntoConstraints="NO" id="pGe-80-Bfj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-kW-QJI">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -111,7 +134,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <imageReference key="image" image="house.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92579305171966553" green="0.73000311851501465" blue="0.65176630020141602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color systemColor="secondaryLabelColor"/>
                                             <color systemColor="tertiaryLabelColor"/>
                                         </hierarchicalColors>
@@ -130,7 +153,7 @@
                                 <buttonConfiguration key="configuration" style="plain">
                                     <imageReference key="image" image="circle" catalog="system" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large" weight="bold"/>
-                                    <color key="baseForegroundColor" red="0.92579305170000004" green="0.73000311849999999" blue="0.65176630020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcM-w2-w3M">
@@ -142,7 +165,7 @@
                                 <buttonConfiguration key="configuration" style="plain" imagePadding="40">
                                     <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45" scale="large"/>
-                                    <color key="baseForegroundColor" red="0.92579305170000004" green="0.73000311849999999" blue="0.65176630020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="nhv-jD-DBj" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="b8e-cN-4yb"/>
@@ -155,6 +178,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye9-G3-et8">
                                 <rect key="frame" x="29" y="118" width="356" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.59191280603408813" green="0.52233928442001343" blue="0.91116148233413696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ways You Can Fight Fast Fashion at Home"/>
                                 <connections>
@@ -164,6 +188,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2o-Rj-Qqd">
                                 <rect key="frame" x="29" y="217" width="356" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.59191280603408813" green="0.52233928442001343" blue="0.91116148233413696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="List of Ethical Brands to Support"/>
                                 <connections>
@@ -173,6 +198,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4F-6t-mSi">
                                 <rect key="frame" x="29" y="316" width="356" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.59191280603408813" green="0.52233928442001343" blue="0.91116148233413696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Facts About Fast Fashion "/>
                                 <connections>
@@ -182,6 +208,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq0-qc-w6t">
                                 <rect key="frame" x="28" y="415" width="359" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.59191280603408813" green="0.52233928442001343" blue="0.91116148233413696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Impact of Fast Fashion on Environment"/>
                                 <connections>
@@ -191,6 +218,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aF2-L2-1VV">
                                 <rect key="frame" x="29" y="514" width="356" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.59191280603408813" green="0.52233928442001343" blue="0.91116148233413696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Solutions to Fast Fashion "/>
                                 <connections>
@@ -306,10 +334,10 @@
             </objects>
             <point key="canvasLocation" x="-1033.3333333333335" y="472.76785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz One-->
         <scene sceneID="jYw-dl-38A">
             <objects>
-                <viewController id="RTE-OR-AUp" sceneMemberID="viewController">
+                <viewController id="RTE-OR-AUp" customClass="QuizOne" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vzG-6K-fr4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -329,6 +357,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" weight="bold"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="WrongA:" destination="RTE-OR-AUp" eventType="touchUpInside" id="CO9-UU-zIj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30 pounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMS-sI-99q">
                                 <rect key="frame" x="89" y="317" width="232" height="29"/>
@@ -357,6 +388,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="circle" catalog="system" title="">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" weight="bold"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="WrongB:" destination="RTE-OR-AUp" eventType="touchUpInside" id="5JD-7Q-AIA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="70 pounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jir-7t-EkR">
                                 <rect key="frame" x="87" y="434" width="124" height="29"/>
@@ -389,6 +423,9 @@
                         <viewLayoutGuide key="safeArea" id="aeG-cg-CB3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="One" destination="Qrl-c4-AG3" id="kSm-bg-rAr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cb-ib-P7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -439,10 +476,10 @@
             </objects>
             <point key="canvasLocation" x="632" y="473"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Two-->
         <scene sceneID="LkH-24-PIt">
             <objects>
-                <viewController id="Qce-iY-jCw" sceneMemberID="viewController">
+                <viewController id="Qce-iY-jCw" customClass="QuizTwo" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cm3-ck-jJs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -462,6 +499,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="29" scale="large" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="WrongTwo:" destination="Qce-iY-jCw" eventType="touchUpInside" id="Pdh-KL-aEy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vkp-4O-ZTq">
                                 <rect key="frame" x="97" y="486" width="70" height="49"/>
@@ -504,6 +544,9 @@
                         <viewLayoutGuide key="safeArea" id="Aqi-56-dwT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Two" destination="xXI-SE-dKb" id="Iuk-4b-vVV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wQC-gY-JjV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -548,10 +591,10 @@
             </objects>
             <point key="canvasLocation" x="2117" y="473"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Three-->
         <scene sceneID="bGw-Oj-GK7">
             <objects>
-                <viewController id="7Uk-dR-GKy" sceneMemberID="viewController">
+                <viewController id="7Uk-dR-GKy" customClass="QuizThree" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HSs-wh-4Fd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -571,6 +614,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="WrongC:" destination="7Uk-dR-GKy" eventType="touchUpInside" id="Cc6-Iu-Axy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjk-J0-49u">
                                 <rect key="frame" x="99" y="403" width="56" height="38"/>
@@ -580,6 +626,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="WrongD:" destination="7Uk-dR-GKy" eventType="touchUpInside" id="PT5-QS-0Tl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytd-Ov-rqx">
                                 <rect key="frame" x="99" y="508" width="56" height="38"/>
@@ -601,6 +650,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="WrongE:" destination="7Uk-dR-GKy" eventType="touchUpInside" id="fsI-Wv-ZJd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1980s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eP3-Ly-pfA">
                                 <rect key="frame" x="163" y="514" width="56" height="28"/>
@@ -644,6 +696,9 @@
                         <viewLayoutGuide key="safeArea" id="lZr-qH-2Es"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Three" destination="TcI-rf-DWH" id="XKh-fl-6u1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uyG-y9-sFH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -685,10 +740,10 @@
             </objects>
             <point key="canvasLocation" x="3681" y="473"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Four-->
         <scene sceneID="6B1-ae-EbK">
             <objects>
-                <viewController id="Mv5-ig-Tl9" sceneMemberID="viewController">
+                <viewController id="Mv5-ig-Tl9" customClass="QuizFour" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AU9-Ca-Jwc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -708,6 +763,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" scale="large" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OhioWrong:" destination="Mv5-ig-Tl9" eventType="touchUpInside" id="MIu-8b-jXy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBu-hc-c5Q">
                                 <rect key="frame" x="113" y="378" width="56" height="38"/>
@@ -717,6 +775,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ManhattanWrong:" destination="Mv5-ig-Tl9" eventType="touchUpInside" id="7vu-0m-CJs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCa-J5-8vL">
                                 <rect key="frame" x="113" y="479" width="56" height="38"/>
@@ -726,6 +787,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ParisWrong:" destination="Mv5-ig-Tl9" eventType="touchUpInside" id="4cb-Vw-lKt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5E-LJ-vsf">
                                 <rect key="frame" x="113" y="585" width="56" height="38"/>
@@ -782,6 +846,9 @@
                         <viewLayoutGuide key="safeArea" id="fre-1M-zrG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Four" destination="gdV-yt-9qW" id="Fnc-1W-NGs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qjC-Nb-o8z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -823,10 +890,10 @@
             </objects>
             <point key="canvasLocation" x="5217" y="473"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Five-->
         <scene sceneID="Jq0-5l-HbI">
             <objects>
-                <viewController id="q1K-eK-1Nw" sceneMemberID="viewController">
+                <viewController id="q1K-eK-1Nw" customClass="QuizFive" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tQy-fu-134">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -858,6 +925,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="17" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="SustainableWrong:" destination="q1K-eK-1Nw" eventType="touchUpInside" id="ptm-NB-z1D"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHN-G6-SuD">
                                 <rect key="frame" x="107" y="467" width="51" height="34"/>
@@ -867,6 +937,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="17" weight="bold"/>
                                     <color key="baseForegroundColor" red="0.91388887166976929" green="0.61561799049377441" blue="0.49023538827896118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="HardToGetWrong:" destination="q1K-eK-1Nw" eventType="touchUpInside" id="VlQ-2B-N5F"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheap" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgA-rQ-j7Q">
                                 <rect key="frame" x="160" y="257" width="61" height="28"/>
@@ -889,7 +962,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That's wrong, try again!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tT-b0-N9j">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That's wrong, try again!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tT-b0-N9j">
                                 <rect key="frame" x="104" y="554" width="206" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -904,6 +977,9 @@
                         <viewLayoutGuide key="safeArea" id="JYn-7c-vKb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Five" destination="2tT-b0-N9j" id="MWq-qB-gnm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q00-qO-02x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -954,10 +1030,10 @@
             </objects>
             <point key="canvasLocation" x="6770" y="473"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="19c-FM-d2u">
             <objects>
-                <viewController id="uOn-Gp-FXN" sceneMemberID="viewController">
+                <viewController id="uOn-Gp-FXN" customClass="SecondViewController" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MPG-BP-8BR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -976,15 +1052,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="6HQ-nq-xlN"/>
+                    <connections>
+                        <outlet property="Second" destination="4qM-KC-WvB" id="iXB-na-CSG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rwK-QC-E0X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-307" y="-410"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="vUW-eA-DgC">
             <objects>
-                <viewController id="qSg-j5-WUX" sceneMemberID="viewController">
+                <viewController id="qSg-j5-WUX" customClass="ThirdViewController" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zjV-3h-Ykw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1003,15 +1082,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="v9g-iv-uAD"/>
+                    <connections>
+                        <outlet property="Third" destination="l1P-gZ-SRn" id="DbS-wi-8f1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SbQ-iL-Hok" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="419" y="-410"/>
+            <point key="canvasLocation" x="432" y="-410"/>
         </scene>
-        <!--View Controller-->
+        <!--Fourth View Controller-->
         <scene sceneID="iiq-Ih-cVR">
             <objects>
-                <viewController id="lTB-UM-6oU" sceneMemberID="viewController">
+                <viewController id="lTB-UM-6oU" customClass="FourthViewController" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W0V-ac-I19">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1030,15 +1112,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Fo3-MA-yuH"/>
+                    <connections>
+                        <outlet property="Fourth" destination="oQk-ot-qAH" id="n4d-KZ-q0g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="188-Qg-Q7Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1150.7246376811595" y="-410.49107142857139"/>
+            <point key="canvasLocation" x="1149" y="-410"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth View Controller-->
         <scene sceneID="ez5-0x-5Bb">
             <objects>
-                <viewController id="dJo-zK-bH9" sceneMemberID="viewController">
+                <viewController id="dJo-zK-bH9" customClass="FifthViewController" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sfF-dR-58g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1057,15 +1142,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="z8f-0c-qUW"/>
+                    <connections>
+                        <outlet property="Fifth" destination="3pb-Xu-dIE" id="umy-eT-tys"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xX4-Ob-mtp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1886.9565217391305" y="-410.49107142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Sixth View Controller-->
         <scene sceneID="egW-93-DEy">
             <objects>
-                <viewController id="ecq-CK-7Ac" sceneMemberID="viewController">
+                <viewController id="ecq-CK-7Ac" customClass="SixthViewController" customModule="Sustainable_Styles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="46T-1b-Wlj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1084,6 +1172,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="cxf-2y-SxC"/>
+                    <connections>
+                        <outlet property="Sixth" destination="Iip-6b-gzN" id="xjT-hu-vEH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L8w-Pn-cFt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1097,6 +1188,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Plant Icon" width="340" height="340"/>
+        <image name="SustainableStyles" width="500" height="500"/>
         <image name="circle" catalog="system" width="128" height="121"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>

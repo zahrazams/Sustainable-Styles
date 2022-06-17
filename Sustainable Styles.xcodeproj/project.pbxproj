@@ -14,6 +14,16 @@
 		CD2E5970285906A1002BF08F /* Sustainable_Styles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2E596E285906A1002BF08F /* Sustainable_Styles.xcdatamodeld */; };
 		CD2E5972285906A8002BF08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2E5971285906A8002BF08F /* Assets.xcassets */; };
 		CD2E5975285906A8002BF08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2E5973285906A8002BF08F /* LaunchScreen.storyboard */; };
+		FAA69E73285CC72F00090A08 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E72285CC72F00090A08 /* SecondViewController.swift */; };
+		FAA69E75285CC97700090A08 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E74285CC97700090A08 /* ThirdViewController.swift */; };
+		FAA69E77285CCA1400090A08 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E76285CCA1400090A08 /* FourthViewController.swift */; };
+		FAA69E79285CCA9500090A08 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E78285CCA9500090A08 /* FifthViewController.swift */; };
+		FAA69E7B285CCB0500090A08 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E7A285CCB0500090A08 /* SixthViewController.swift */; };
+		FAA69E7D285CCCA500090A08 /* QuizOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E7C285CCCA500090A08 /* QuizOne.swift */; };
+		FAA69E7F285CCDD700090A08 /* QuizTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E7E285CCDD700090A08 /* QuizTwo.swift */; };
+		FAA69E81285CCE7000090A08 /* QuizThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E80285CCE7000090A08 /* QuizThree.swift */; };
+		FAA69E83285CCF2800090A08 /* QuizFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E82285CCF2800090A08 /* QuizFour.swift */; };
+		FAA69E85285CD02600090A08 /* QuizFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA69E84285CD02600090A08 /* QuizFive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		CD2E5971285906A8002BF08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2E5974285906A8002BF08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2E5976285906A8002BF08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA69E72285CC72F00090A08 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FAA69E74285CC97700090A08 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FAA69E76285CCA1400090A08 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		FAA69E78285CCA9500090A08 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		FAA69E7A285CCB0500090A08 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		FAA69E7C285CCCA500090A08 /* QuizOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOne.swift; sourceTree = "<group>"; };
+		FAA69E7E285CCDD700090A08 /* QuizTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTwo.swift; sourceTree = "<group>"; };
+		FAA69E80285CCE7000090A08 /* QuizThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizThree.swift; sourceTree = "<group>"; };
+		FAA69E82285CCF2800090A08 /* QuizFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFour.swift; sourceTree = "<group>"; };
+		FAA69E84285CD02600090A08 /* QuizFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +86,16 @@
 				CD2E5973285906A8002BF08F /* LaunchScreen.storyboard */,
 				CD2E5976285906A8002BF08F /* Info.plist */,
 				CD2E596E285906A1002BF08F /* Sustainable_Styles.xcdatamodeld */,
+				FAA69E72285CC72F00090A08 /* SecondViewController.swift */,
+				FAA69E74285CC97700090A08 /* ThirdViewController.swift */,
+				FAA69E76285CCA1400090A08 /* FourthViewController.swift */,
+				FAA69E78285CCA9500090A08 /* FifthViewController.swift */,
+				FAA69E7A285CCB0500090A08 /* SixthViewController.swift */,
+				FAA69E7C285CCCA500090A08 /* QuizOne.swift */,
+				FAA69E7E285CCDD700090A08 /* QuizTwo.swift */,
+				FAA69E80285CCE7000090A08 /* QuizThree.swift */,
+				FAA69E82285CCF2800090A08 /* QuizFour.swift */,
+				FAA69E84285CD02600090A08 /* QuizFive.swift */,
 			);
 			path = "Sustainable Styles";
 			sourceTree = "<group>";
@@ -142,9 +172,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2E596A285906A1002BF08F /* ViewController.swift in Sources */,
+				FAA69E7F285CCDD700090A08 /* QuizTwo.swift in Sources */,
+				FAA69E7D285CCCA500090A08 /* QuizOne.swift in Sources */,
+				FAA69E7B285CCB0500090A08 /* SixthViewController.swift in Sources */,
+				FAA69E83285CCF2800090A08 /* QuizFour.swift in Sources */,
 				CD2E5970285906A1002BF08F /* Sustainable_Styles.xcdatamodeld in Sources */,
 				CD2E5966285906A1002BF08F /* AppDelegate.swift in Sources */,
+				FAA69E77285CCA1400090A08 /* FourthViewController.swift in Sources */,
+				FAA69E85285CD02600090A08 /* QuizFive.swift in Sources */,
+				FAA69E79285CCA9500090A08 /* FifthViewController.swift in Sources */,
+				FAA69E73285CC72F00090A08 /* SecondViewController.swift in Sources */,
+				FAA69E75285CC97700090A08 /* ThirdViewController.swift in Sources */,
 				CD2E5968285906A1002BF08F /* SceneDelegate.swift in Sources */,
+				FAA69E81285CCE7000090A08 /* QuizThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
