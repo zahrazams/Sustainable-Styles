@@ -6,17 +6,22 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
     
+    
+    @IBOutlet weak var myWebView: WKWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
+        let googleURL = URL(string: "https://www.globalcitizen.org/en/content/fast-fashion-how-to-be-sustainable/")
+        myWebView.load(URLRequest(url:googleURL!))
     }
 
-    @IBAction func lbsWrong(_ sender: Any) {
-        
-    }
-    
+
 }
 
