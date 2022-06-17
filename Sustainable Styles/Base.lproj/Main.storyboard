@@ -174,7 +174,7 @@
                                 <rect key="frame" x="28" y="415" width="359" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Impact of Fast Fasion on Environment"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Impact of Fast Fashion on Environment"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aF2-L2-1VV">
                                 <rect key="frame" x="29" y="514" width="356" height="75"/>
